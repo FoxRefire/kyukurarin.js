@@ -1,0 +1,18 @@
+body {
+    background-color: #f9c2d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 50vh;
+    height: auto;
+}
+
+img,button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

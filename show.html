@@ -1,0 +1,8 @@
+<html>
+<div></div>
+<style>html{background-color: #f9c2d7;}</style>
+<script>
+id=(new URL(window.location.href)).searchParams.get("id");
+document.querySelector("body > div:nth-child(1)").innerHTML="<img src=res/"+id+".png />"
+</script>
+</html>

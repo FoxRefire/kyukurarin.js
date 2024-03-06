@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <audio src="res/audio.mp3" id="audio"></audio>
+    <script src="kit.js"></script>
+    <script src="anim.js"></script>
+    <script src="init.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <div id="initNotice" style="display:none;">
+      <h4>続行するには「実行」ボタンを押下してください<br/></h4>
+      <h4>[開発中]まだ未完成です<br/></h4>
+      <button id="btn_init">実行</button>
+    </div>
+    <div id="popupNotice" style="display:none;">
+      <img src="res/popup.png"/><br/>
+      <h4>続行するにはこのサイトのポップアップブロックを無効にして、リロードしてください<br/></h4>
+      <button onclick="location.reload()">リロード</button><br/>
+    </div>
+  </body>
+</html>
