@@ -1,2 +1,3 @@
-# kyukurarin
-[WIP]きゅうくらりん JS porting
+# きゅうくらりん.js
+現在開発中
+
