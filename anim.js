@@ -14,7 +14,7 @@ async function animRun() {
     await w(6.50)
     o("sb_7frames_f7",6,600,600,3)
     await w(11.00)
-    c(0 6)
+    c(0,6)
 
     await w(12.00)
     o("sb_7frames_f1",0,600,600,3)
@@ -31,5 +31,5 @@ async function animRun() {
     await w(14.00)
     o("sb_7frames_f7",6,600,600,3)
     await w(19.00)
-    c(0 6)
+    c(0,6)
 }
