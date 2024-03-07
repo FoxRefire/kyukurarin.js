@@ -12,6 +12,7 @@ function o(id, asNum, x, y, autoMoveAction) { //Open:ウィンドウを開く
             moveAutomove();
             break;
         case 3:
+            console.log("Debug:"+automovables)
             moveAutomove();
             automovables.push(asNum);
             break;
@@ -63,7 +64,9 @@ async function w(time) { //Wait:音源が指定時間になるまで待機
 
 // 自動移動処理 //
 function moveAutomove() {
+    console.log("Debug1");
     automovables.forEach((i) => {
-        windows[i].moveBy(-75, 0);
+        windows[i].moveBy(-70, 0);
+        console.log("Debug2");
     })
 }
