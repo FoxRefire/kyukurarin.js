@@ -1268,6 +1268,7 @@ pre[class*="language-"] {
 </li>
 <li><p><strong>autoMoveAction[number/optional]</strong></p>
 <p>関数が呼び出されたとき、自動でウィンドウの移動を行うルールを指定します。</p>
+<p>移動対象はclose処理が実行されたとき、クリアされます。</p>
 <p>1：自身を移動対象として登録</p>
 <p>2: 移動対象を移動させる</p>
 <p>3: 自身を移動対象として登録し、既存の移動対象の移動も行う</p>
@@ -1323,7 +1324,7 @@ pre[class*="language-"] {
 </ul>
 <h3 class="atx" id="wait">(w)ait</h3>
 <p>音源が指定時間になるまで次の処理を待機します。</p>
-<pre><code class="fenced-code-block language-javascript"><span class="token function">t</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span></code></pre>
+<pre><code class="fenced-code-block language-javascript"><span class="token function">w</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span></code></pre>
 <h5 class="atx" id="引数-5">引数</h5>
 <ul>
 <li><p><strong>time[number/required]</strong></p>
