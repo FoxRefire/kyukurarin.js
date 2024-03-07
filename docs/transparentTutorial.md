@@ -2,17 +2,17 @@
 
 ウィンドウメニューのその他のメニュー->Configure special window settingsからウィンドウのルールを開く
 
-ウィンドウタイトルプロパティを作成し、部分一致「Transparent 55」を設定
+ウィンドウタイトルプロパティを作成し、部分一致「Transparent 64」を設定
 
-アクティブ/非アクティブの不透明度 プロパティを作成し、値を55に設定
+アクティブ/非アクティブの不透明度 プロパティを作成し、値を64に設定
 
 ## Windows
 
 [NaiNai](https://forest.watch.impress.co.jp/library/software/nainai/)を使用する。
 
-ウィンドウタイトルプロパティを作成し、部分一致「Transparent 55」を設定
+ウィンドウタイトルプロパティを作成し、部分一致「Transparent 64」を設定
 
-不透明度を55に設定
+不透明度を64に設定
 
 ## Mac OS
 
