@@ -16,7 +16,7 @@ function c(asNums) { //Close:ウィンドウを閉じる
 }
 
 function m(asNum) { //Move:ウィンドウを左方向に移動
-    windows[asNum].moveBy(-60, 0); //TODO:相対的な移動距離を自動的に決定するようにする
+    windows[asNum].moveBy(-75, 0); //TODO:相対的な移動距離を自動的に決定するようにする
 }
 
 function t(asNum) { //Top:ウィンドウを最前面にする
