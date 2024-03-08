@@ -3,7 +3,7 @@ let automovables=[]
 // ステップ実行用の関数を定義 //
 // Ref:docs/reference.md //
 function o(id, asNum, x, y, autoMoveAction) { //Open:ウィンドウを開く
-    windows[asNum]=window.open(`show.html?id=${id}`, "", `left=${x}, top=${y}, width=500, height=720`); //TODO:相対的な表示サイズ、座標を自動的に決定するようにする
+    windows[asNum]=window.open(`show.html?id=${id}`, "", `left=${x}, top=${y}, width=${imgs[id].width}, height=${imgs[id].height}`); //TODO:相対的な表示サイズ、座標を自動的に決定するようにする
     switch(autoMoveAction){
         case 1:
             automovables.push(asNum);

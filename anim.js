@@ -1,5 +1,7 @@
 async function animRun() {
+    o("sb_clock_c1",0,400,400,0)
     await w(5.00)
+    c(0)
     o("sb_7frames_f1",0,600,600,3)
     await w(5.25)
     o("sb_7frames_f2",1,600,600,3)
